@@ -14,30 +14,30 @@ and answer validation**
 
 ### 🔍 Smart Recipe Search
 
--   Semantic search using sentence transformers\
--   Filter by cuisine, diet, time, and calories\
--   Real-time results as you type\
+-   Semantic search using sentence transformers
+-   Filter by cuisine, diet, time, and calories
+-   Real-time results as you type
 -   Answer validation against source recipes
 
 ### ⚡ Real-time Document Handling
 
--   Auto-detects changes in recipe files\
--   Instant vector store updates\
--   Live editing with auto-save\
+-   Auto-detects changes in recipe files
+-   Instant vector store updates
+-   Live editing with auto-save
 -   Version tracking and change history
 
 ### 🤖 AI-Powered Answers
 
--   LLM-generated answers based on retrieved recipes\
--   Answer validation against multiple sources\
--   Confidence scoring for responses\
+-   LLM-generated answers based on retrieved recipes
+-   Answer validation against multiple sources
+-   Confidence scoring for responses
 -   Source citation and attribution
 
 ### 📊 Recipe Management
 
--   Upload markdown recipe files\
--   In-app editing with preview\
--   Batch operations\
+-   Upload markdown recipe files
+-   In-app editing with preview
+-   Batch operations
 -   Export recipes in multiple formats
 
 ------------------------------------------------------------------------
@@ -46,7 +46,7 @@ and answer validation**
 
 ### Prerequisites
 
--   Python 3.8+\
+-   Python 3.8+
 -   pip package manager
 
 ------------------------------------------------------------------------
@@ -105,7 +105,7 @@ Place `.md` files in:
 
     recipe_uploads/
 
-Or use the upload interface in the app.\
+Or use the upload interface in the app.
 Files are indexed automatically in real time.
 
 ------------------------------------------------------------------------
@@ -124,9 +124,9 @@ Example queries:
 
 ### 3️⃣ Edit Recipes
 
--   Click **Edit** on any recipe\
--   Modify content in the editor\
--   Changes are saved and re-indexed automatically\
+-   Click **Edit** on any recipe
+-   Modify content in the editor
+-   Changes are saved and re-indexed automatically
 -   View change history and rollback if needed
 
 ------------------------------------------------------------------------
@@ -158,14 +158,14 @@ class Config:
 
 ## 📊 Supported Cuisines
 
--   Italian\
--   European\
--   Fusion\
--   American\
--   Asian\
--   Mexican\
--   Mediterranean\
--   Middle Eastern\
+-   Italian
+-   European
+-   Fusion
+-   American
+-   Asian
+-   Mexican
+-   Mediterranean
+-   Middle Eastern
 -   Nordic\
 -   Indian
 
@@ -185,16 +185,16 @@ confidence score.
 
 ### Batch Operations
 
--   Bulk upload\
--   Batch edit\
+-   Bulk upload
+-   Batch edit
 -   Export as JSON or Markdown
 
 ------------------------------------------------------------------------
 
 ## 📈 Statistics & Analytics
 
--   Recipe count by cuisine\
--   Update frequency tracking\
+-   Recipe count by cuisine
+-   Update frequency tracking
 -   Search performance metrics
 
 ------------------------------------------------------------------------
@@ -235,7 +235,7 @@ file for details.
 
 ## 🙏 Acknowledgments
 
--   Sentence Transformers for embeddings\
--   FAISS for vector search\
--   Streamlit for UI\
+-   Sentence Transformers for embeddings
+-   FAISS for vector search
+-   Streamlit for UI
 -   Hugging Face for transformer models
